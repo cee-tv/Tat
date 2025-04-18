@@ -474,24 +474,22 @@ document.addEventListener('DOMContentLoaded', function() {
 			name: 'Premier Sports 2',
 			manifestUri: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd',
 			licensekey: '59454adb530b4e0784eae62735f9d850:61100d0b8c4dd13e4eb8b4851ba192cc',
-		}
+		},
 
 
 
-//		kapamilyachannel: {
-//			name: 'kapamilya channel',
-//			manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd',
-//			licenseserver: 'https://www.iwanttfc.com/api/1.0/license?itemID=ZfYR-ZQ9qH430EU3qU1XZQ&kid=BD17AFB5-DC96-48A3-9BE7-9EE3634DD4B8',
-//		},
-//		vice: {
-//			name: 'vice',
-//			manifestUri: 'https://dfwlive-v1-c1p2-sponsored.cf.dtvcdn.com/Content/HLS.cps/Live/channel(VICEHD-1936.dfw.1080)/index.m3u8',
-//			licensekey: '6a7dd5c79fef1699ee2ffa3d38fe02b3:fac74244cd1383119f9f00a77ebbbde7',
-//		},
-//		cbsnewsdetroit: {
-//			name: 'cbs news detroit',
-//			manifestUri: 'https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8',
-//		},
+		kapamilyachannel: {
+			name: 'kapamilya channel',
+			manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd',
+			licenseserver: 'https://www.iwanttfc.com/api/1.0/license?itemID=ZfYR-ZQ9qH430EU3qU1XZQ&kid=BD17AFB5-DC96-48A3-9BE7-9EE3634DD4B8',
+		},
+		vice: {			name: 'vice',
+			manifestUri: 'https://dfwlive-v1-c1p2-sponsored.cf.dtvcdn.com/Content/HLS.cps/Live/channel(VICEHD-1936.dfw.1080)/index.m3u8',
+			licensekey: '6a7dd5c79fef1699ee2ffa3d38fe02b3:fac74244cd1383119f9f00a77ebbbde7',
+		},		cbsnewsdetroit: {
+			name: 'cbs news detroit',
+			manifestUri: 'https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8',
+		},
 	};
 	const loadingOverlay = document.createElement('div');
 	loadingOverlay.id = 'loading-overlay';
